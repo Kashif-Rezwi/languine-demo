@@ -1,0 +1,33 @@
+{
+    "sidebar": {
+        "minimalSideBarData": {
+            "people": "People",
+            "workflows": "Workflows",
+            "apps": "Apps",
+            "ai-agents": "AI Agents",
+            "campaigns": "Campaigns",
+            "pipeline": "Pipeline"
+        },
+        "settingsSideBarData": {
+            "settings": "Settings",
+
+            "account": "Account",
+            "profile": "Profile",
+            "billing": "Billing",
+            "team-members": "Team Members",
+            "email-verification-tools": "Email Verification Tools",
+            
+            "workspace": "Workspace",
+            "general": "General",
+            "security-access": "Security and Access",
+            "members-permissions": "Members",
+            "domains": "Domains",
+            "email-health": "Email Health",
+            "email-categories": "Email Categories",
+            "api-keys": "API Keys",
+            "import": "Import",
+            "export": "Export"
+        },
+        "help_support": "Help and Support"
+    }
+}

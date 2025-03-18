@@ -1,0 +1,26 @@
+version: 1
+files:
+  src/locales/en.json:
+    sidebar.minimalSideBarData.people: 78386ec8f2845742c324a3d7d3e800ff
+    sidebar.minimalSideBarData.workflows: e6b088db24ebe67ed0e9567d309387ec
+    sidebar.minimalSideBarData.apps: a6f00c82b6eb55a13a1f242313aaf9c9
+    sidebar.minimalSideBarData.ai-agents: 27f08387b26e1ceeb1b60bd9c97e7a47
+    sidebar.minimalSideBarData.campaigns: 504894b22ecc743eb94d05d5c70e4f80
+    sidebar.minimalSideBarData.pipeline: aeaeaec51b4e6b88122f10ad96a8de72
+    sidebar.settingsSideBarData.settings: f4f70727dc34561dfde1a3c529b6205c
+    sidebar.settingsSideBarData.account: 08bd40c7543007ad06e4fce31618f6ec
+    sidebar.settingsSideBarData.profile: cce99c598cfdb9773ab041d54c3d973a
+    sidebar.settingsSideBarData.billing: 780c462e85ba4399a5d42e88f69a15ca
+    sidebar.settingsSideBarData.team-members: 8196446d7293bfeb288d7c21e36a1886
+    sidebar.settingsSideBarData.email-verification-tools: 700e179d71a06cef5fbfb5638aff492b
+    sidebar.settingsSideBarData.workspace: 03a21915504df93cf5dba0636080f62e
+    sidebar.settingsSideBarData.general: 0db377921f4ce762c62526131097968f
+    sidebar.settingsSideBarData.security-access: a42054cf05b9492c81f3e528a8ab5294
+    sidebar.settingsSideBarData.members-permissions: ef53538ae41a651c7f72ab6cb1135d8c
+    sidebar.settingsSideBarData.domains: 78cd2c7d5422ffdb6d9545211ca49eeb
+    sidebar.settingsSideBarData.email-health: e57c17c2c22629623930ace12589266e
+    sidebar.settingsSideBarData.email-categories: 44306abeacb771a4ea1744096b1b2d11
+    sidebar.settingsSideBarData.api-keys: b4717f6ab3c2357c13c0c2cd32dfc4ca
+    sidebar.settingsSideBarData.import: 72d6d7a1885885bb55a565fd1070581a
+    sidebar.settingsSideBarData.export: 0095a9fa74d1713e43e370a7d7846224
+    sidebar.help_support: 34ad20ad8855db67abe969867908b754
