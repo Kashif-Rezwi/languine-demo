@@ -1,6 +1,7 @@
 'use client'
 
 import { Box, Flex, Text, Button } from '@radix-ui/themes'
+import { useTranslations } from 'next-intl'
 import { useState } from 'react'
 
 const PeopleIcon = () => (
@@ -34,20 +35,16 @@ const CampaignsIcon = () => (
 )
 
 export function Sidebar({ onSectionChange }: { onSectionChange: (section: string) => void }) {
-    const [activeItem, setActiveItem] = useState('people')
+    const [activeItem, setActiveItem] = useState('people');
+    const t = useTranslations('sidebar');
 
     const menuItems = [
-        { id: 'people', name: 'People', icon: <PeopleIcon /> },
-        { id: 'workflows', name: 'Workflows', icon: <WorkflowsIcon /> },
-        { id: 'apps', name: 'Apps', icon: <AppsIcon /> },
-        { id: 'aiAgents', name: 'AI Agents', icon: <AIIcon /> },
-        { id: 'campaigns', name: 'Campaigns', icon: <CampaignsIcon /> },
-    ]
-
-    const handleMenuClick = (itemId: string) => {
-        setActiveItem(itemId)
-        onSectionChange(itemId)
-    }
+        { id: 'people', name: t('menuItems.people'), icon: <PeopleIcon /> },
+        { id: 'workflows', name: t('menuItems.workflows'), icon: <WorkflowsIcon /> },
+        { id: 'apps', name: t('menuItems.apps'), icon: <AppsIcon /> },
+        { id: 'aiAgents', name: t('menuItems.aiAgents'), icon: <AIIcon /> },
+        { id: 'campaigns', name: t('menuItems.campaigns'), icon: <CampaignsIcon /> },
+    ];
 
     return (
         <Flex
@@ -73,7 +70,7 @@ export function Sidebar({ onSectionChange }: { onSectionChange: (section: string
                 }}>
                     <Text size="3" weight="bold">D</Text>
                 </Box>
-                <Text size="3" weight="bold">Default Business</Text>
+                <Text size="3" weight="bold">{t('title')}</Text>
             </Flex>
 
             {/* Menu Items */}
@@ -85,7 +82,10 @@ export function Sidebar({ onSectionChange }: { onSectionChange: (section: string
                         py="3"
                         gap="3"
                         align="center"
-                        onClick={() => handleMenuClick(item.id)}
+                        onClick={() => {
+                            setActiveItem(item.id);
+                            onSectionChange(item.id);
+                        }}
                         style={{
                             backgroundColor: activeItem === item.id ? 'rgba(59, 130, 246, 0.2)' : 'transparent',
                             color: activeItem === item.id ? 'white' : 'rgba(255, 255, 255, 0.7)',
@@ -102,14 +102,14 @@ export function Sidebar({ onSectionChange }: { onSectionChange: (section: string
             {/* Trial Notice */}
             <Box mt="auto" p="4">
                 <Flex direction="column" gap="2">
-                    <Text size="1" color="gray">Trial ends today!</Text>
-                    <Text size="1" color="gray">You are currently on Trial plan</Text>
+                    <Text size="1" color="gray">{t('trial.notice')}</Text>
+                    <Text size="1" color="gray">{t('trial.status')}</Text>
                     <Box my="2" style={{ height: '4px', backgroundColor: '#3b82f6', borderRadius: '4px' }}></Box>
                     <Button variant="outline" size="1" style={{ borderColor: '#3b82f6', color: '#3b82f6' }}>
-                        Upgrade plan
+                        {t('trial.upgrade')}
                     </Button>
                 </Flex>
             </Box>
         </Flex>
-    )
+    );
 }

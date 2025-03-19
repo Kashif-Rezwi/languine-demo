@@ -24,3 +24,29 @@ files:
     sidebar.settingsSideBarData.import: 72d6d7a1885885bb55a565fd1070581a
     sidebar.settingsSideBarData.export: 0095a9fa74d1713e43e370a7d7846224
     sidebar.help_support: 34ad20ad8855db67abe969867908b754
+  src/messages/en.json:
+    sidebar.title: 1734592be7770132fb2d5bcf2354bc8c
+    sidebar.menuItems.people: 78386ec8f2845742c324a3d7d3e800ff
+    sidebar.menuItems.workflows: e6b088db24ebe67ed0e9567d309387ec
+    sidebar.menuItems.apps: a6f00c82b6eb55a13a1f242313aaf9c9
+    sidebar.menuItems.aiAgents: 27f08387b26e1ceeb1b60bd9c97e7a47
+    sidebar.menuItems.campaigns: 504894b22ecc743eb94d05d5c70e4f80
+    sidebar.trial.notice: d423c1018bdc217a65afb247d65449b0
+    sidebar.trial.status: 0da7b831cd8be39b90abb27cda9d3128
+    sidebar.trial.upgrade: 0113b3f3abd3b3654cc6c83cbcffbbf2
+    dynamicContent.people.title: 78386ec8f2845742c324a3d7d3e800ff
+    dynamicContent.people.description: cfae3f23fd900b83393094e6d23d898f
+    dynamicContent.workflows.title: e6b088db24ebe67ed0e9567d309387ec
+    dynamicContent.workflows.description: 91d9dc2503983698da85b80d05afb8bb
+    dynamicContent.apps.title: a6f00c82b6eb55a13a1f242313aaf9c9
+    dynamicContent.apps.description: 6e0bc3a8beb75f4038dbfb842f20275c
+    dynamicContent.aiAgents.title: 27f08387b26e1ceeb1b60bd9c97e7a47
+    dynamicContent.aiAgents.description: 93767cf6d03617bc588eba83dd5cab6c
+    dynamicContent.campaigns.title: 504894b22ecc743eb94d05d5c70e4f80
+    dynamicContent.campaigns.description: c01db34d4fe3177d898078e1cd004f7e
+    dynamicContent.fallback.title: 99688ad8265a92d4742c2d1335b7cb8c
+    dynamicContent.fallback.description: d3e819bbb50932d9e5a37b23e192da41
+    dynamicContent.common.keyFeatures: 219927b224df858b634f5817e92a43c9
+    dynamicContent.common.keyFeaturesText: 3d6dd2062f2e42969a60675d669525e1
+    dynamicContent.common.gettingStarted: bf647454e36069fd16f1a7a35cf6a865
+    dynamicContent.common.gettingStartedText: 70b7f884fedb55e51ac2673cf81b2d35

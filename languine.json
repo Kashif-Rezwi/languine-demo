@@ -1,8 +1,9 @@
 {
-  "projectId": "prj_XuJaK1jrvoZDlQDKSfpvf",
+  "projectId": "prj_cztdwjzy8lrrylo0v1qd4z73",
   "locale": {
     "source": "en",
     "targets": [
+      "en",
       "ja",
       "fr",
       "bn"
@@ -11,7 +12,7 @@
   "files": {
     "json": {
       "include": [
-        "src/locales/[locale].json"
+        "src/messages/[locale].json"
       ]
     }
   }

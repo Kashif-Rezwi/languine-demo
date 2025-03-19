@@ -13,9 +13,7 @@ export function Providers({
     children: React.ReactNode;
     locale: string;
 }) {
-    const [messages, setMessages] = useState<Record<string, string>>({});
-    const [loading, setLoading] = useState(true);
-
+    const [messages, setMessages] = useState<Record<string, unknown>>({});
     useEffect(() => {
         const loadMessages = async () => {
             try {
@@ -24,17 +22,11 @@ export function Providers({
             } catch (error) {
                 console.error("Failed to load messages", error);
                 setMessages({}); // Set empty object as fallback
-            } finally {
-                setLoading(false);
             }
         };
 
         loadMessages();
     }, [locale]);
-
-    if (loading) {
-        return <div>Loading translations...</div>; // Simple loading state
-    }
 
     return (
         <NextIntlClientProvider

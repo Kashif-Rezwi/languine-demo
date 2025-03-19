@@ -1,0 +1,49 @@
+{
+  "sidebar": {
+    "title": "Default Business",
+    "menuItems": {
+      "people": "People",
+      "workflows": "Workflows",
+      "apps": "Apps",
+      "aiAgents": "AI Agents",
+      "campaigns": "Campaigns"
+    },
+    "trial": {
+      "notice": "Trial ends today!",
+      "status": "You are currently on Trial plan",
+      "upgrade": "Upgrade plan"
+    }
+  },
+  "dynamicContent": {
+    "people": {
+      "title": "People",
+      "description": "Manage your contacts, add new people to your network, and organize them with tags. This section gives you a comprehensive view of all individuals connected to your business."
+    },
+    "workflows": {
+      "title": "Workflows",
+      "description": "Create and manage automated workflows to streamline your business processes. Set up triggers, actions, and conditions to automate repetitive tasks and save time."
+    },
+    "apps": {
+      "title": "Apps",
+      "description": "Browse and manage the applications integrated with your account. Connect with third-party services and extend functionality through our app marketplace."
+    },
+    "aiAgents": {
+      "title": "AI Agents",
+      "description": "Deploy intelligent AI agents to handle specific tasks automatically. Train custom models and create agents that can engage with your customers or process data without human intervention."
+    },
+    "campaigns": {
+      "title": "Campaigns",
+      "description": "Plan, create, and track marketing campaigns across multiple channels. Monitor performance metrics and optimize your outreach efforts to maximize ROI."
+    },
+    "fallback": {
+      "title": "{selectedSection}",
+      "description": "Content for {selectedSection} will be displayed here."
+    },
+    "common": {
+      "keyFeatures": "Key Features",
+      "keyFeaturesText": "This section provides tools and features to help you manage your {contentTitle} effectively. You can add, edit, delete, and organize items according to your business needs.",
+      "gettingStarted": "Getting Started",
+      "gettingStartedText": "To get started with {contentTitle}, explore the options available in this section. You can use the buttons above to create new items or use the search and filter options to find specific entries."
+    }
+  }
+}
