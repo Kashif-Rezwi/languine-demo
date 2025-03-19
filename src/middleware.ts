@@ -46,7 +46,7 @@ export function middleware(request: NextRequest) {
   const localeMiddleware = createMiddleware({
     defaultLocale,
     locales,
-    localePrefix: 'as-needed'
+    localePrefix: 'always' 
   });
   
   return localeMiddleware(request);
