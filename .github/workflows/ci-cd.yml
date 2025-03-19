@@ -9,6 +9,8 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    env:
+      LANGUINE_API_KEY: ${{ secrets.LANGUINE_API_KEY }}
     
     steps:
       - name: Checkout repository
@@ -32,9 +34,7 @@ jobs:
       # Run Languine translation
       - name: Run Languine translation
         run: npm run translate
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-      
+
       # Build application
       - name: Build application
         run: npm run build

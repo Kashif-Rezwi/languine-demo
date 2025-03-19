@@ -20,19 +20,19 @@
   "dynamicContent": {
     "people": {
       "title": "Personnes",
-      "description": "Gérez vos contacts, ajoutez de nouvelles personnes à votre réseau et organisez-les avec des étiquettes. Cette section vous donne une vue d'ensemble de toutes les personnes liées à votre entreprise."
+      "description": "Gérez vos contacts, ajoutez de nouvelles personnes à votre réseau et organisez-les avec des étiquettes. Cette section vous donne une vue d'ensemble de toutes les personnes connectées à votre entreprise."
     },
     "workflows": {
       "title": "Flux de travail",
-      "description": "Créez et gérez des flux de travail automatisés pour rationaliser vos processus d'affaires. Configurez des déclencheurs, des actions et des conditions pour automatiser les tâches répétitives et gagner du temps."
+      "description": "Créez et gérez des flux de travail automatisés pour rationaliser vos processus commerciaux. Configurez des déclencheurs, des actions et des conditions pour automatiser les tâches répétitives et gagner du temps."
     },
     "apps": {
       "title": "Applications",
-      "description": "Parcourez et gérez les applications intégrées à votre compte. Connectez-vous à des services tiers et étendez les fonctionnalités grâce à notre marketplace d'applications."
+      "description": "Parcourez et gérez les applications intégrées à votre compte. Connectez-vous à des services tiers et étendez les fonctionnalités via notre marché d'applications."
     },
     "aiAgents": {
       "title": "Agents IA",
-      "description": "Déployez des agents IA intelligents pour gérer automatiquement des tâches spécifiques. Formez des modèles personnalisés et créez des agents capables d'interagir avec vos clients ou de traiter des données sans intervention humaine."
+      "description": "Déployez des agents IA intelligents pour gérer automatiquement des tâches spécifiques. Entraînez des modèles personnalisés et créez des agents capables d'interagir avec vos clients ou de traiter des données sans intervention humaine."
     },
     "campaigns": {
       "title": "Campagnes",
@@ -43,7 +43,7 @@
       "description": "Le contenu pour {selectedSection} sera affiché ici."
     },
     "common": {
-      "keyFeatures": "Caractéristiques clés",
+      "keyFeatures": "Fonctionnalités clés",
       "keyFeaturesText": "Cette section fournit des outils et des fonctionnalités pour vous aider à gérer efficacement votre {contentTitle}. Vous pouvez ajouter, modifier, supprimer et organiser des éléments selon vos besoins commerciaux.",
       "gettingStarted": "Commencer",
       "gettingStartedText": "Pour commencer avec {contentTitle}, explorez les options disponibles dans cette section. Vous pouvez utiliser les boutons ci-dessus pour créer de nouveaux éléments ou utiliser les options de recherche et de filtrage pour trouver des entrées spécifiques."

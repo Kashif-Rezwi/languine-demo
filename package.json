@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "translate": "npx languine@latest translate"
+    "translate": "npx languine@latest translate --force"
   },
   "dependencies": {
     "@radix-ui/themes": "^3.2.1",
